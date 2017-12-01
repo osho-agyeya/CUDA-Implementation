@@ -1,0 +1,21 @@
+﻿  Compiling CUDA source file ImageKernel.cu...
+  
+  C:\Users\oshoa\Documents\Visual Studio 2015\Projects\greyImage\greyImage>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "D:\VStudio\VC\bin\x86_amd64"  -I\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\ImageKernel.cu.obj "C:\Users\oshoa\Documents\Visual Studio 2015\Projects\greyImage\greyImage\ImageKernel.cu" 
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\malloc.h(160): warning : expression has no effect
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  ImageKernel.cu
+  Program.cpp
+  Generating Code...
+  Compiling...
+  stdafx.cpp
+  Utilities.cpp
+  Image.cpp
+  GpuTimer.cpp
+  Generating Code...
+GpuTimer.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+  greyImage.vcxproj -> C:\Users\oshoa\Documents\Visual Studio 2015\Projects\greyImage\x64\Debug\greyImage.exe
+  greyImage.vcxproj -> C:\Users\oshoa\Documents\Visual Studio 2015\Projects\greyImage\x64\Debug\greyImage.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\oshoa\Documents\Visual Studio 2015\Projects\greyImage\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.
